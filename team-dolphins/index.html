@@ -6,7 +6,9 @@
     <title>Dolphins</title>
   </head>
   <body>
-    <header role="banner">Learn All About Dolphins</header>
+    <header role="banner">
+      <h1>Learn All About Dolphins</h1>
+    </header>
     <nav role="navigation">
       <ul>
         <li>Home Page</li>
@@ -15,8 +17,8 @@
     </nav>
 
     <main role="main">
-      <section role="region">
-        <h1 aria-label="Title of page about dolphins">Learn About Dolphins</h1>
+      <section role="region" aria-labelledby="#info-about-dolphins">
+        <h2 id="info-about-dolphins">Learn About Dolphins</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta a
           ratione, dolores delectus nemo dolorem aliquam perspiciatis culpa,
@@ -30,7 +32,7 @@
           illo pariatur veniam alias obcaecati provident dolore.
         </p>
 
-        <h3 aria-label="Pictures of dolphins">Images of Dolphins</h3>
+        <h2>Images of Dolphins</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
           magni dolor placeat amet laboriosam mollitia ipsa repellat, dolore
@@ -41,11 +43,13 @@
     </main>
 
     <aside role="complementary">
-      <section role="region">
-        <h2>More about Dolphins</h2>
+      <section role="region" aria-labelledby="#more-about-dolphins">
+        <h2 id="more-about-dolphins">More about Dolphins</h2>
       </section>
     </aside>
 
-    <footer role="contentinfo">Footer</footer>
+    <footer role="contentinfo" aria-labelledby="#footer">
+      <h3 id="footer">Footer</h3>
+    </footer>
   </body>
 </html>
